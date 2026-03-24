@@ -126,3 +126,25 @@
     @apply font-sans;
     }
 }
+
+
+
+/* Embla base */
+/* Base */
+.slider-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: 100%;
+  min-width: 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
