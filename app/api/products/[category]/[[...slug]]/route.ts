@@ -1,5 +1,6 @@
+import { prisma } from "@/lib/prisma";
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+
 
 // GET /api/products/[category] or /api/products/[category]/[slug]
 export async function GET(
